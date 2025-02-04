@@ -1,0 +1,17 @@
+﻿:root{ 
+--primary: #EF7F1A;
+--secundary: #000000;
+--support: #CF3C02;
+--blackColor: #000000;
+--whiteColor: #FFFFFF;
+--grayColor: #5C6F82;
+--iceColor: #F5F5F5;
+--cardsBarColor: #CBCDCE;
+--findAppMaskColor: #0C162F;
+--findAppMasc: #081018;
+--defaultFont: "Montserrat";
+--Oswald: "BIZ UDGothic", sans-serif;
+--transparentdarkColor: #081018c4;
+--transparentWindow: #081018eb;
+--inputsBgLogin: #ffffff1f;
+}

@@ -1,0 +1,84 @@
+#formCadastro {
+    width: 50%;
+    margin: auto;
+}
+.formFields {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #00000061;
+    padding: 4px 6px;
+    overflow: hidden;
+    outline: none;
+    margin: 0 0 25px;
+    box-sizing: inherit;
+    width: 95%;
+}
+#btnEnviarLead, #btnEnviarLead2 {
+    background-color: #0073BC;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    display: block;
+    min-width: 100px;
+    margin: auto;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+#lblMsg {
+    text-align: center;
+    font-weight: bold;
+    color: #f90;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.fieldError {
+    border-bottom-color: #ff0000 !important;
+    border-width: 1px !important;
+    border-bottom-style: solid !important;
+}
+.input-loader {
+	background: url('../images/loader_16x16.gif');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #EEE; 
+    cursor: not-allowed; 
+    color: #777;
+}
+.form-check{
+    position: relative;
+    display: block;
+    width: 95%;
+    margin: auto;
+}
+.form-check-input{
+        position: absolute;
+    margin-top: .3rem;
+    margin-left: -1.25rem;
+}
+.form-check-label{
+        margin-bottom: 0;
+}
+@media (max-width: 950px) {
+    #formCadastro {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    #btnEnviarLead, #btnEnviarLead2 {
+        display: block;
+        width: 100px;
+        margin: auto;
+        cursor: pointer;
+    }
+    #lblMsg {
+        font-size: 0.8em;
+        margin-top: 20px;
+    }
+    .fieldError {
+        border-bottom-color: #ff0000 !important;
+        border-width: 1px !important;
+        border-bottom-style: solid !important;
+    }
+}

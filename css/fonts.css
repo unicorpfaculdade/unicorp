@@ -1,0 +1,209 @@
+/* LATO */
+
+@font-face {
+	font-family:'Lato';
+	src: url('../fonts/Lato%20Regular.eot');
+	src: url('../fonts/Lato%20Regular.eot#iefix') format('embedded-opentype'),
+		url('../fonts/Lato%20Regular.woff2') format('woff2'),
+		url('../fonts/Lato%20Regular.woff') format('woff'),
+		url('lato/Lato Regular.svg#Lato Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-02DC;
+}
+
+@font-face {
+    font-family:'Lato';
+    src: url('../fonts/Lato%20Regular%20Italic.eot');
+	src: url('../fonts/Lato%20Regular%20Italic.eot#iefix') format('embedded-opentype'),
+		url('../fonts/Lato%20Regular%20Italic.woff2') format('woff2'),
+		url('../fonts/Lato%20Regular%20Italic.woff') format('woff'),
+		url('lato/Lato Regular Italic.svg#Lato Italic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-02DC;
+}
+
+
+@font-face {
+	font-family:'Lato';
+	src: url('../fonts/Lato%20Bold.eot');
+	src: url('../fonts/Lato%20Bold.eot#iefix') format('embedded-opentype'),
+		url('../fonts/Lato%20Bold.woff2') format('woff2'),
+		url('../fonts/Lato%20Bold.woff') format('woff'),
+		url('lato/Lato Bold.svg#Lato Bold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-02DC;
+}
+
+@font-face {
+    font-family:'Lato';
+    src: url('../fonts/Lato%20Bold%20Italic.eot');
+	src: url('../fonts/Lato%20Bold%20Italic.eot#iefix') format('embedded-opentype'),
+		url('../fonts/Lato%20Bold%20Italic.woff2') format('woff2'),
+		url('../fonts/Lato%20Bold%20Italic.woff') format('woff'),
+		url('lato/Lato Bold Italic.svg#Lato Bold Italic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-02DC;
+}
+
+@font-face {
+	font-family:'Lato';
+	src: url('../fonts/Lato%20Black.eot');
+	src: url('../fonts/Lato%20Black.eot#iefix') format('embedded-opentype'),
+		url('../fonts/Lato%20Black.woff2') format('woff2'),
+		url('../fonts/Lato%20Black.woff') format('woff'),
+		url('lato/Lato Black.svg#Lato Black') format('svg');
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-02DC;
+}
+
+@font-face {
+	font-family:'Lato';
+	src: url('../fonts/Lato%20Black%20Italic.eot');
+	src: url('../fonts/Lato%20Black%20Italic.eot#iefix') format('embedded-opentype'),
+		url('../fonts/Lato%20Black%20Italic.woff2') format('woff2'),
+		url('../fonts/Lato%20Black%20Italic.woff') format('woff'),
+		url('lato/Lato Black Italic.svg#Lato Black Italic') format('svg');
+	font-weight: 900;
+	font-style: italic;
+	font-stretch: normal;
+	unicode-range: U+0020-02DC;
+}
+
+@font-face {
+	font-family:'Montserrat';
+	src: url('../fonts/Montserrat-Medium.ttf');
+	/*font-weight: 900;
+	font-style: italic;
+	font-stretch: normal;*/
+	unicode-range: U+0020-02DC;
+}
+
+/* FONTELLO */
+
+@font-face {
+	font-family: 'fontello';
+	src: url('../fonts/fontello.eot');
+	src: url('../fonts/fontello.eot#iefix') format('embedded-opentype'),
+		url('../fonts/fontello.woff2') format('woff2'),
+		url('../fonts/fontello.woff') format('woff'),
+		url('../fonts/fontello.ttf') format('truetype'),
+		url('fontello/font/fontello.svg?73081934#fontello') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  /*margin-right: .2em;*/
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  /*margin-left: .2em;*/
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-info:before { content: '\e800'; } /* '' */
+.icon-question:before { content: '\e801'; } /* '' */
+.icon-heart-empty:before { content: '\e802'; } /* '' */
+.icon-heart:before { content: '\e803'; } /* '' */
+.icon-up-open:before { content: '\e804'; } /* '' */
+.icon-right-open:before { content: '\e805'; } /* '' */
+.icon-left-open:before { content: '\e806'; } /* '' */
+.icon-down-open:before { content: '\e807'; } /* '' */
+.icon-ok:before { content: '\e808'; } /* '' */
+.icon-cancel:before { content: '\e809'; } /* '' */
+.icon-help-circled-alt:before { content: '\e80a'; } /* '' */
+.icon-search:before { content: '\e80b'; } /* '' */
+.icon-emo-wink:before { content: '\e80c'; } /* '' */
+.icon-emo-happy:before { content: '\e80d'; } /* '' */
+.icon-emo-unhappy:before { content: '\e80e'; } /* '' */
+.icon-up-dir:before { content: '\e80f'; } /* '' */
+.icon-down-dir:before { content: '\e810'; } /* '' */
+.icon-clock:before { content: '\e811'; } /* '' */
+.icon-videocam-outline:before { content: '\e812'; } /* '' */
+.icon-emo-wink2:before { content: '\e813'; } /* '' */
+.icon-note-beamed:before { content: '\e814'; } /* '' */
+.icon-share:before { content: '\e815'; } /* '' */
+.icon-videocam:before { content: '\e816'; } /* '' */
+.icon-home:before { content: '\e817'; } /* '' */
+.icon-camera:before { content: '\e818'; } /* '' */
+.icon-play:before { content: '\e819'; } /* '' */
+.icon-dot-3:before { content: '\e81a'; } /* '' */
+.icon-videocam-1:before { content: '\e81b'; } /* '' */
+.icon-camera-outline:before { content: '\e81c'; } /* '' */
+.icon-headphones:before { content: '\e81d'; } /* '' */
+.icon-headphones-1:before { content: '\e81e'; } /* '' */
+.icon-down:before { content: '\e81f'; } /* '' */
+.icon-left:before { content: '\e820'; } /* '' */
+.icon-right:before { content: '\e821'; } /* '' */
+.icon-up:before { content: '\e822'; } /* '' */
+.icon-users:before { content: '\e823'; } /* '' */
+.icon-location:before { content: '\e824'; } /* '' */
+.icon-lightbulb:before { content: '\e825'; } /* '' */
+.icon-plus:before { content: '\e826'; } /* '' */
+.icon-user:before { content: '\e827'; } /* '' */
+.icon-phone:before { content: '\e828'; } /* '' */
+.icon-calendar:before { content: '\e829'; } /* '' */
+.icon-basket:before { content: '\e82a'; } /* '' */
+.icon-lock:before { content: '\e82b'; } /* '' */
+.icon-credit-card:before { content: '\e82c'; } /* '' */
+.icon-star:before { content: '\e82d'; } /* '' */
+.icon-flash:before { content: '\e82e'; } /* '' */
+.icon-comment-inv:before { content: '\e82f'; } /* '' */
+.icon-spin2:before { content: '\e831'; } /* '' */
+.icon-play-1:before { content: '\f00f'; } /* '' */
+.icon-info-circled-alt:before { content: '\f086'; } /* '' */
+.icon-link-ext:before { content: '\f08e'; } /* '' */
+.icon-twitter:before { content: '\f099'; } /* '' */
+.icon-facebook:before { content: '\f09a'; } /* '' */
+.icon-rss-1:before { content: '\f09e'; } /* '' */
+.icon-menu:before { content: '\f0c9'; } /* '' */
+.icon-gplus:before { content: '\f0d5'; } /* '' */
+.icon-mail-alt:before { content: '\f0e0'; } /* '' */
+.icon-linkedin:before { content: '\f0e1'; } /* '' */
+.icon-bell-alt:before { content: '\f0f3'; } /* '' */
+.icon-angle-left:before { content: '\f104'; } /* '' */
+.icon-angle-right:before { content: '\f105'; } /* '' */
+.icon-angle-up:before { content: '\f106'; } /* '' */
+.icon-angle-down:before { content: '\f107'; } /* '' */
+.icon-spinner:before { content: '\f110'; } /* '' */
+.icon-ellipsis-vert:before { content: '\f142'; } /* '' */
+.icon-youtube:before { content: '\f16a'; } /* '' */
+.icon-instagram:before { content: '\f16d'; } /* '' */
+.icon-whatsapp:before { content: '\f232'; } /* '' */
+.icon-instagram-filled:before { content: '\f31f'; } /* '' */

@@ -1,0 +1,778 @@
+﻿.slick-dotted.slick-slider{
+    margin-bottom: 0px !important;
+}
+#img__header__logo{
+    max-width: 160px;
+}
+#divPortais{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 10001;
+    display: none;
+}
+
+#divPortaisMain{
+	position: relative;
+    top: 200px;
+    left: 50%;
+    margin-left: -250px;
+    width: 500px;
+    font-size: 20px;
+    text-align: center;
+}
+#divPortaisHeader{
+    background-color: #383C46;
+    width: 100%;
+    height: 70px;
+}
+
+#divPortaisHeader h1{
+    padding-top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFF;
+}
+#divPortaisClose{
+    float: right;
+    margin-right: 10px;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 18px;
+}
+#divPortaisText{
+    background-color: #EEF0F2;
+    width: 100%;
+    padding: 20px;
+}
+#inputValuePortal{
+    display: none;
+}
+#divPortaisText span{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    display: inline-flex;
+}
+
+#selCidadesPortais, #selEscolasPortais{
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 5px;
+    width: 250px;
+}
+.selCidadesPortaisOpcoes{
+    font-size: 15px;
+}
+
+#lnkConfirmePortais{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #383C46;
+    color: #fff;
+    display: list-item;
+    padding: 15px; 
+}
+
+#lnkConfirmePortais:hover {
+    background-color: #737784;
+}
+#divDescontoEPT{
+    display: none;
+    background-image: url('../images/seloBoaBolsa.png');
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 235px;
+    top: 0px;
+}
+
+.ui-select-bootstrap>.ui-select-choices, .ui-select-bootstrap>.ui-select-no-choice{
+    max-height: 140px !important;
+}
+
+.icon-play-1{
+    width: 80px !important;
+    height: 80px !important;
+    background-color: #FF0000 !important;
+}
+
+.icon-play-1:before {
+    line-height: 80px !important;
+    color: #FFF !important;
+}
+.icon-play-1:before {
+    font-size: 50px !important;
+}
+
+@media screen and (max-width: 1024px) {
+    #divPortaisMain {
+        width: 95%;
+        margin-left: auto;
+        left: -2.5%;
+        top: 100px;
+    }
+
+    #selCidadesPortais, #selEscolasPortais {
+        width: 90%;
+        font-size: 13px;
+    }
+
+    .login__box__close {
+        float: right;
+        margin-right: 6px;
+        color: #fff;
+        text-decoration: none;
+        margin-top: -3px;
+    }
+
+    #divDescontoEPT {
+        left: 275px;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.login__box__ativar{
+    top: 15px;
+    position: relative;
+    background-color: #00AFEF;
+    left: -15px;
+    width: 115%;
+    padding: 10px;
+}
+.login__box__ativar a{
+    color: #FFF !important;
+}
+.price__old{
+    white-space: nowrap;
+}
+
+    .flexAcademiaCEO {
+    display: flex;
+    }
+
+    .flexAcademiaCEO-item {
+        flex: 1;
+        margin: 0 auto;
+    }
+
+    .academiaCEO {
+    position: relative;
+    text-align: center;
+    }
+
+    .academiaCEO img {
+    width: 75% !important;
+    display: initial !important;
+    }
+
+    .academiaCEO .tituloacademia span {
+    font-size: 20px;
+    color: #fbbf09;
+    }
+
+    .academiaCEO .buttonAssineAcademia {
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    background-color: #fbbf09;
+    border: #fbbf09 2px solid;
+    font-size: 15px;
+    font-weight: bold;
+    padding:10px 25px;
+    text-decoration: none;
+    border-radius:30px;
+    }
+
+    .academiaCEO .titulo24horas {
+    text-align: center;
+    }
+
+    .academiaCEO .titulo24horas p {
+        font-size: 20px;
+        color: #736157;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        }
+
+    .academiaCEO .valor24horas {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+    .academiaCEO .valor24horas span {
+	font-weight: 700;
+    font-size: 34px;
+    }
+
+    .academiaCEO .valor24horas p {
+    margin-bottom: 20px;
+    }
+    
+    .academiaCEO .description24horas {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+    .academiaCEO .description24horas p {
+    font-size: 15px;
+    }
+
+    .academiaCEO .buttonAssine24Horas:hover {
+    background-color: #ff6600;
+    color: #fff;
+    }
+
+    .academiaCEO .buttonAssine24Horas:active {
+    position: center;
+    top: 1px;
+    }
+
+    .academiaCEO .divAssine24Horas{
+    width: 100%;
+    margin: auto;
+    }
+
+    .academiaCEO .border24horas {
+    border-top: #f5ebe2 2px solid;
+    margin-bottom: 25px;
+    }
+
+        .minhacorrida {
+        position: relative;
+        text-align: center;
+        }
+    
+        .minhacorrida .titulocorrida {
+        text-align: center;
+        }
+    
+        .minhacorrida .titulocorrida p {
+        font-size: 20px;
+        color: #736157;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        }
+        
+        .minhacorrida .titulocorrida span {
+        font-size: 20px;
+        color: #A8CF45;
+        }
+        
+    
+        .minhacorrida .valorcorrida {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        }
+    
+        .minhacorrida .valorcorrida span {
+        font-weight: 700;
+        font-size: 34px;
+        }
+    
+        .minhacorrida .valorcorrida p {
+        margin-bottom: 20px;
+        }
+        
+        .minhacorrida .descriptioncorrida {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        }
+    
+        .minhacorrida .descriptioncorrida p {
+        font-size: 15px;
+        }
+    
+        .minhacorrida .buttonAssinecorrida {
+        display: inline-block;
+        cursor: pointer;
+        color: #A8CF45;
+        background-color: transparent;
+        border: #A8CF45 2px solid;
+        font-size: 15px;
+        font-weight: bold;
+        padding:10px 33px;
+        text-decoration: none;
+        border-radius:30px;
+        }
+    
+        .minhacorrida .buttonAssinecorrida:hover {
+        background-color: #A8CF45;
+        color: #fff;
+        }
+    
+        .minhacorrida .buttonAssinecorrida:active {
+        position: center;
+        top: 1px;
+        }
+           
+        .minhacorrida .divAssinecorrida{
+        width: 150px;
+        margin: auto;
+            }
+        
+        .minhacorrida .borderCorrida {
+        border-top: #f5ebe2 2px solid;
+        margin-bottom: 25px;
+        }
+        
+
+    .corpo24horas {
+    position: relative;
+    text-align: center;
+    }
+
+    .corpo24horas .titulo24horas {
+    text-align: center;
+    }
+
+    .corpo24horas .titulo24horas p {
+    font-size: 20px;
+    color: #736157;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    
+    .corpo24horas .titulo24horas span {
+    font-size: 20px;
+    color: #ff6600;
+    }
+    
+
+	.corpo24horas .valor24horas {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+	.corpo24horas .valor24horas span {
+	font-weight: 700;
+    font-size: 34px;
+    }
+
+    .corpo24horas .valor24horas p {
+    margin-bottom: 20px;
+    }
+    
+    .corpo24horas .description24horas {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+    .corpo24horas .description24horas p {
+    font-size: 15px;
+    }
+
+    .corpo24horas .buttonAssine24Horas{
+	display: inline-block;
+	cursor: pointer;
+    color: #ff6600;
+    background-color: transparent;
+    border: #ff6600 2px solid;
+	font-size: 15px;
+	font-weight: bold;
+	padding:10px 33px;
+	text-decoration: none;
+	border-radius:30px;
+    }
+
+    .corpo24horas .buttonAssine24Horas:hover {
+    background-color: #ff6600;
+    color: #fff;
+    }
+
+    .corpo24horas .buttonAssine24Horas:active {
+    position: center;
+    top: 1px;
+    }
+
+    .corpo24horas .divAssine24Horas{
+    width: 150px;
+    margin: auto;
+    }
+
+    .corpo24horas .border24horas {
+    border-top: #f5ebe2 2px solid;
+    margin-bottom: 25px;
+    }
+
+    .corpoTechnos {
+    position: relative;
+    text-align: center;
+    }
+
+    .corpoTechnos .tituloTechnos {
+    text-align: center;
+    }
+
+    .corpoTechnos .tituloTechnos p {
+    font-size: 20px;
+    color: #736157;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    
+    .corpoTechnos .tituloTechnos span {
+    font-size: 20px;
+    color: #80DBF7;
+	}
+
+	.corpoTechnos .valorTechnos {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+	.corpoTechnos .valorTechnos span {
+	font-weight: 700;
+    font-size: 34px;
+    }
+
+    .corpoTechnos .valorTechnos p {
+    margin-bottom: 20px;
+    }
+    
+    .corpoTechnos .descriptionTechnos {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+    .corpoTechnos .descriptionTechnos p {
+    font-size: 15px;
+    }
+
+    .corpoTechnos .buttonAssineTechnos{
+	display: inline-block;
+	cursor: pointer;
+    color: #80DBF7;
+    background-color: transparent;
+    border: #80DBF7 2px solid;
+	font-size: 15px;
+	font-weight: bold;
+	padding:10px 33px;
+	text-decoration: none;
+	border-radius:30px;
+    }
+
+    .corpoTechnos .buttonAssineTechnos:hover {
+    background-color: #80DBF7;
+    color: #fff;
+    }
+
+    .corpoTechnos .buttonAssineTechnos:active {
+    position: center;
+    top: 1px;
+    }
+
+    .corpoTechnos .divAssineTechnos{
+    width: 150px;
+    margin: auto;
+    }
+
+    .corpoTechnos .borderTechnos {
+    border-top: #80DBF7 2px solid;
+    margin-bottom: 25px;
+    }
+
+    .corpoInLags {
+        position: relative;
+        text-align: center;
+        }
+    
+        .corpoInLags .tituloInLags {
+        text-align: center;
+        }
+    
+        .corpoInLags .tituloInLags p {
+        font-size: 22px;
+        color: #030329;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        }
+        
+        .corpoInLags .tituloInLags span {
+        font-size: 22px;
+        color: #194e95;
+        font-weight: 900;
+        }
+        
+    
+        .corpoInLags .valorInLags {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        }
+    
+        .corpoInLags .valorInLags span {
+        font-weight: 700;
+        font-size: 36px;
+        color: #194e95;
+        }
+    
+        .corpoInLags .valorInLags p {
+        margin-bottom: 20px;
+        color: #194e95;
+        }
+        
+        .corpoInLags .descriptionInLags {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        }
+    
+        .corpoInLags .descriptionInLags p {
+        font-size: 15px;
+        color: #194e95;
+        }
+    
+        .corpoInLags .buttonAssineInLags{
+        display: inline-block;
+        cursor: pointer;
+        color: #194e95;
+        background-color: transparent;
+        border: #194e95 2px solid;
+        font-size: 15px;
+        font-weight: bold;
+        padding:10px 33px;
+        text-decoration: none;
+        border-radius:30px;
+        }
+    
+        .corpoInLags .buttonAssineInLags:hover {
+        background-color: #194e95;
+        color: #fff;
+        }
+    
+        .corpoInLags .buttonAssineInLags:active {
+        position: center;
+        top: 1px;
+        }
+    
+        .corpoInLags .divAssineInLags{
+        width: 150px;
+        margin: auto;
+        }
+    
+        .corpoInLags .borderInLags {
+        border-top: #f5ebe2 2px solid;
+        margin-bottom: 25px;
+        }
+
+    /* ABAIXO TODO CSS DA INICIACAO CIENTIFICA FAEL - TIRAR DEPOIS DO DIA 10/12 */
+    .iniciacaoFael{
+        display: flex;
+        margin: auto;
+    }
+
+    .img-iniciacao{
+        display: flex;        
+        margin-top: 25px;
+    }
+
+    .img-i {
+        margin: 0 15px 0 15px;
+    }
+
+    .img-i img {
+        width: 150px !important;
+        max-width: none !important;
+    }
+
+    .img-t {
+        margin: auto;
+    }
+
+    .img-t span{
+        font-size: 18px; 
+        font-weight: 800 !important;
+    }
+
+    .myButton-div {
+        margin-top: 45px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .myButton-div p {
+        font-size: 38px;
+        line-height: 36px !important;
+    }
+
+    .myButton-div span {
+        font-size: 38px;
+        font-weight: 800 !important;
+        color: #2dabf9;
+    }
+
+    .myButton-div b {
+        font-weight: 800 !important;
+    }
+
+    .myButton {
+        background-color:#2dabf9;
+        border-radius:42px;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:18px;
+        font-weight:bold;
+        padding:9px 37px;
+        text-decoration:none;
+    }
+
+    .myButton:hover {
+        background-color:#0688fa;
+    }
+
+    .myButton:active {
+        position:relative;
+        top:1px;
+    }
+
+    .observacao {
+        margin-top: 32px;
+        text-align: center;
+    }
+
+    .observacao span {
+        font-weight: 800 !important;
+    }
+
+    
+@media screen and (max-width: 1024px) {
+    .iniciacaoFael{
+        display: block;
+        text-align: center;
+        margin-top: 45px;
+    }
+
+    .img-i {
+        margin: auto !important;
+    }
+
+    .myButton-div p {
+        line-height: none;
+    }
+
+    .img-iniciacao {
+        margin-top: 0px;
+    }
+
+    .myButton-div p {
+        font-size: 26px;
+    }
+
+    .myButton-div span {
+        font-size: 30px;
+        font-weight: 800 !important;
+    }
+
+    .img-center {
+        width: 90% !important;
+    }
+
+}
+
+.fade {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.7);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.img-center {
+    background-image: url(../images/bolona.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 398px;
+    margin: auto;
+    position: relative;
+    top: calc(50% - 196px);
+    color: #fff;
+}
+
+.user {
+    width: 20%;
+    margin: auto;
+    position: relative;
+    top: -60px;
+}
+
+.user img {
+    width: 100%;
+}
+
+#fotoUser{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+.text-user {
+    text-align: center;
+    position: relative;
+    top: -40px;
+    font-family: MontSerrat;
+}
+
+.text-user p {
+    margin: 0;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+#nameUser {
+    height: 25px;
+    font-weight: bold;
+    font-size: 18px;
+    overflow: hidden;
+    display: block;
+    width: 250px;
+    margin: auto;
+}
+.btn.btn--white span{
+    font-weight: 1000 !important;
+}
+#iframeResgateRecompensa{
+    height: 400px;
+}
+
+@media screen and (max-width: 450px) {
+    #iframeResgateRecompensa{
+        height: 1040px;
+    }
+}
